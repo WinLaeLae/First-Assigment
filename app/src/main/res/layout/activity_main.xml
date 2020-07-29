@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+    <ImageView
+        android:id="@+id/image_View"
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/download"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/description"
+        />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:minHeight="70dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_marginTop="@dimen/margrinTop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="20">
+
+                <TextView
+                    android:id="@+id/title_TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/news_title"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/locatio_Textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title_TextView"
+                    android:layout_marginTop="@dimen/margrinTop"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/location_text" />
+            </RelativeLayout>
+            <Button
+                android:layout_marginTop="15dp"
+                android:layout_weight="80"
+                android:text="41"
+                android:textSize="25sp"
+
+                android:drawableLeft="@drawable/ic_baseline_star_24"
+                android:background="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:weightSum="60">
+            <Button
+                android:textSize="20sp"
+                android:text="CALL"
+                android:background="@android:color/background_light"
+                android:layout_weight="20"
+                android:layout_marginBottom="5dp"
+                android:drawableTop="@drawable/ic_baseline_call_24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:textSize="20sp"
+                android:text="@string/route_text"
+                android:layout_weight="20"
+                android:background="@android:color/background_light"
+                android:drawableTop="@drawable/ic_baseline_near_me_24"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:textSize="20sp"
+                android:text="@string/share_text"
+                android:layout_weight="20"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/background_light"
+                android:drawableTop="@drawable/ic_baseline_share_24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <TextView
+            android:padding="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/description_text"/>
+    </LinearLayout>
+
+</LinearLayout>

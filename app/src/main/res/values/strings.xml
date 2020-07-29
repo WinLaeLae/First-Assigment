@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyAppTwo</string>
+    <string name="description">ToDo</string>
+    <string name="news_title">Oeschines Lake Campground</string>
+    <string name="location_text">Kandersteg.Switzerland</string>
+    <string name="share_text">SHARE</string>
+    <string name="route_text">ROUTE</string>
+    <string name="description_text">When the user touches or clicks a button, the button performs an action. The button\'s text or icon should provide a hint about what that action will be. (Buttons are sometimes called in Android documentation.</string>
+</resources>

@@ -5,5 +5,29 @@
     <string name="location_text">Kandersteg.Switzerland</string>
     <string name="share_text">SHARE</string>
     <string name="route_text">ROUTE</string>
-    <string name="description_text">When the user touches or clicks a button, the button performs an action. The button\'s text or icon should provide a hint about what that action will be. (Buttons are sometimes called in Android documentation.</string>
+    <string name="description_text">When the user touches or clicks a button, the button performs an action.
+        The button\'s text or icon should provide a hint about what that action will be. (Buttons are sometimes called in Android documentation.
+        A raised button is an outlined rectangle or rounded rectangle that appears lifted from the screen—the shading around it indicates that it is possible to tap or click it.
+        The raised button can show text, an icon, or both.
+        A raised button is an outlined rectangle or rounded rectangle that appears lifted from the screen—the shading around it indicates that it is possible to tap or click it.
+        The raised button can show text, an icon, or both.
+        A raised button is an outlined rectangle or rounded rectangle that appears lifted from the screen—the shading around it indicates that it is possible to tap or click it.
+        The raised button can show text, an icon, or both.</string>
+    <string name="one_text">One</string>
+    <string name="name_text1">Jack Jack</string>
+    <string name="level_text1">Level:4</string>
+    <string name="order_status_text">Order Status</string>
+    <string name="ultilities_text">Ultilities</string>
+    <string name="my_wishlist_text">MY Wishlist</string>
+    <string name="exp_points_4_000_text">Exp Points:4,000</string>
+    <string name="my_followed_sellers">My Followed Sellers</string>
+    <string name="my_purchased_item">My Purchased item</string>
+    <string name="my_coupons">My Coupons</string>
+    <string name="my_cards_wallet">My Cards Wallet</string>
+    <string name="exp_points">Exp Points</string>
+    <string name="my_given_feedbacks">My Given Feedbacks</string>
+    <string name="searched_history">Searched History</string>
+    <string name="events_calander">Events Calander</string>
+    <string name="address_text">Address</string>
+    <string name="payment_methods">Payment Methods</string>
 </resources>
